@@ -10,6 +10,7 @@ A simple Rust application to schedule system shutdowns with a sleek graphical us
 - **Intuitive GUI**: Easy-to-use interface powered by Slint.
 
 ---
+![image](https://github.com/user-attachments/assets/fd4e9535-8f48-4eb6-b220-4643ba62e753)
 
 ## 🚀 Quick Start
 
@@ -25,4 +26,3 @@ cargo run
 cargo build --release
 ./target/release/rust-shutdown-timer
 
-![image](https://github.com/user-attachments/assets/66e3e923-53d6-42a3-9f9e-fa75809af4ae)
