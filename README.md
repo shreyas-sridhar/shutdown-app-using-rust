@@ -1,57 +1,28 @@
-# Rust System Shutdown Timer with Slint UI
+# 🖥️ Rust System Shutdown Timer
 
-**A powerful and intuitive Rust application for scheduling system shutdowns with a modern graphical user interface built using [Slint UI](https://slint.dev).**
-
----
-
-## 🚀 Features
-- Schedule **system shutdown** with ease.
-- User-friendly **Graphical User Interface (GUI)** powered by Slint.
-- Compatible with **Windows**, **Linux**, and **macOS** platforms.
-- Implements safe multithreading and **Rust's powerful system APIs**.
-- Customizable timer input for shutdown in seconds.
+A simple Rust application to schedule system shutdowns with a sleek graphical user interface (GUI) built using [Slint UI](https://slint.dev).
 
 ---
 
-## 🔑 Keywords for Discoverability
-- **Rust shutdown application**
-- **Rust shutdown timer**
-- **System shutdown in Rust**
-- **Shutdown program with Rust**
-- **GUI system shutdown**
-- **Rust Slint UI application**
-- **Schedule shutdown Rust**
-- **Rust app for Windows/Linux/MacOS shutdown**
+## ✨ Features
+- **Schedule Shutdowns**: Set a timer to shut down your computer automatically.
+- **Cross-Platform**: Works on **Windows**, **Linux**, and **macOS**.
+- **Intuitive GUI**: Easy-to-use interface powered by Slint.
 
 ---
 
-## 📚 Table of Contents
-1. [Introduction](#-introduction)
-2. [Getting Started](#-getting-started)
-3. [How It Works](#-how-it-works)
-4. [Installation and Usage](#-installation-and-usage)
-5. [Compatibility](#-compatibility)
-6. [Contributing](#-contributing)
-7. [License](#-license)
+## 🚀 Quick Start
 
----
+### 1️⃣ Prerequisites
+- Install **Rust**: [https://www.rust-lang.org](https://www.rust-lang.org).
+- Administrator privileges may be required for shutdown commands.
 
-## 🎉 Introduction
-This project is a demonstration of **Rust's capability** to create system-level tools with a sleek GUI. It combines:
-- **Command-line execution** for system commands.
-- The **Slint UI framework** for a responsive, intuitive user experience.
-
-Whether you want to shut down your computer after a specific time or automate shutdown tasks, this project provides the perfect solution.
-
----
-
-## 🛠️ Getting Started
-To get started with this project, you'll need:
-1. [Rust](https://www.rust-lang.org/) installed on your system.
-2. A terminal or command prompt with administrative privileges.
-3. Basic knowledge of **Rust** and **Markdown**.
-
-### Clone the Repository
+### 2️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/rust-shutdown-timer.git
 cd rust-shutdown-timer
+cargo run
+cargo build --release
+./target/release/rust-shutdown-timer
+
+![image](https://github.com/user-attachments/assets/66e3e923-53d6-42a3-9f9e-fa75809af4ae)
