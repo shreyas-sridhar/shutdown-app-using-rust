@@ -1,0 +1,39 @@
+import { Button, VerticalBox, TextEdit, StandardButton, LineEdit, ProgressIndicator } from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+    background: darkblue;
+    out property <string> shutdown_time; // Output property for binding
+    callback start_shutdown();
+
+    GridLayout {
+        padding: 10px;
+        spacing: 5px;
+
+        Row {
+            Text {
+                text: "What's the time required for manual shutdown?:";
+                font-family: "Arial";
+            }
+        }
+
+        Row {
+            TextEdit {
+                horizontal-alignment: center;
+                height: 50px;
+                placeholder-text: "Enter time in seconds";
+                text <=> shutdown_time; // Bind TextEdit's text to `shutdown_time`
+            }
+        }
+
+        Row {
+            Button {
+                text: "Start Timer";
+                clicked => {
+                    // Inside the block, call the Rust callback
+                    start_shutdown();
+                }
+                primary: true;
+            }
+        }
+    }
+}

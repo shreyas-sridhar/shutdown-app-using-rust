@@ -1,0 +1,22 @@
+[package]
+name = "slint-rust-template"
+version = "0.1.0"
+edition = "2021"
+description = "Just enough using Rust- dont you feel sometime you have just enough of something? well here is my app to save you "
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.8.0"  # For UI
+chrono = "0.4"    # Optional: For advanced time handling
+anyhow = "1.0"    # Optional: For better error management
+
+[build-dependencies]
+slint-build = "1.8.0"
+
+[package.metadata.bundle]
+name="just enough using rust"
+identifier="io.github.shreyas-sridhar.shutdown-app-using-rust"
+icon = ["path/to/icon.ico"]
+# Remove or comment out the features section if it's unnecessary
+# If you need to enable native features, please check the Slint documentation for correct feature names
