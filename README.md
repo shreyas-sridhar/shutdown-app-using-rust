@@ -24,5 +24,4 @@ git clone https://github.com/shreyas-sridhar/shutdown-app-using-rust.git
 cd rust-shutdown-timer
 cargo build --release
 cargo run
-./target/release/rust-shutdown-timer
 
