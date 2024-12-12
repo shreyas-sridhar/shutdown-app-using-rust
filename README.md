@@ -20,7 +20,7 @@ A simple Rust application to schedule system shutdowns with a sleek graphical us
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/rust-shutdown-timer.git
+git clone https://github.com/shreyas-sridhar/rust-shutdown-timer.git
 cd rust-shutdown-timer
 cargo run
 cargo build --release
